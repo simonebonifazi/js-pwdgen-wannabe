@@ -25,4 +25,4 @@ password.innerHTML = firstName + '' + lastName + '' + prefColor + '' + 21
 console.log(password) */
 
 const password = document.getElementById('your-password');
-password.innerHTML = `${firstName} ${lastName} ${prefColor} 22`
+password.innerHTML = `<strong> ${firstName} ${lastName} ${prefColor} 22 </strong>`
